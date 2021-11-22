@@ -48,7 +48,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./main.pdf
-          asset_name: main.pdf
+          asset_path: ./thesis.pdf
+          asset_name: thesis.pdf
           asset_content_type: pdf
 # from https://dev.to/mrturkmen/latex-with-github-actions-4580
