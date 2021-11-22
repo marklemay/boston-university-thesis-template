@@ -1,0 +1,45 @@
+\chapter{Important Details}
+\label{chapter:Details}
+\thispagestyle{myheadings}
+
+% set this to the location of the figures for this chapter. it may
+% also want to be ../Figures/2_Body/ or something. make sure that
+% it has a trailing directory separator (i.e., '/')!
+\graphicspath{{3_Details/Figures/}}
+
+The use of Type 1 fonts and font embedding into the document are both dependent on a specific Latex installation and even on operating system. There is a good chance that it will work with no problem for you. However, should your thesis PDF be returned, please consider the following remedies discovered by students over many years. 
+
+\section{Type 1 fonts}
+
+All Boston University thesis and dissertation submissions must use only Type 1 fonts to assure high-quality rendering. Type 3 fonts are not acceptable.
+
+For some students adding the following two lines in ``thesis.tex'' preamble has worked:\\
+%
+{\tt
+$\backslash$usepackage[T1]\{fontenc\}\\
+$\backslash$usepackage{pslatex}
+   } 
+
+
+The easiest way to check if fonts are embedded well and of what type, is to use Adobe Acrobat's Preflight -- it shows exactly where the Type 3 fonts are in the thesis. You can learn more here: \url{https://community.adobe.com/t5/acrobat/figure-out-where-a-specific-font-is-used-in-a-pdf/m-p/10880057?page=1#M238035}
+
+If you don't have Adobe Acrobat (BU students get it for free), you can quickly check which fonts have which type by looking into Files $>>$ Properties $>>$ Fonts, but it doesn't tell where the text with a specific font type is.
+
+{\bf Linux/Unix}: If you are using LaTeX or Unix, the problem is that, by default, LaTeX uses Type 3 fonts. Since most users have a tendency to use the default settings, then Type 3 fonts will be used by default. You can try to change the first line in the preamble in ``thesis.tex'' to:\\
+%
+{\tt $\backslash$documentstyle[12pt,times,letterpaper]\{report\}}
+
+\noindent
+since then Times fonts will be used (which are not Type 3). If there are mathematical formulas in the text, it is better to use:\\
+%
+{\tt $\backslash$documentstyle[12pt,times,mathptm,letterpaper]\{report\}}
+
+
+\section{Font embedding}
+
+All fonts must be embedded into the final PDF file. If they are not, sometimes equations may look strange or may not show up at all for several pages. This is often due to unembedded font problem. Should you have a font-embedding issue, this page may prove useful:\\
+%
+\url{https://www.karlrupp.net/2016/01/embed-all-fonts-in-pdfs-latex-pdflatex}
+
+For those using Overleaf, this page might help:
+\url{https://www.overleaf.com/learn/latex/Questions/My_submission_was_rejected_by_the_journal_because_%22Font_XYZ_is_not_embedded%22._What_can_I_do%3F}

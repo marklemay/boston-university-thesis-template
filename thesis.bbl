@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+
+\bibitem[Debreuve et~al., 2001]{Debr01}
+Debreuve, E., Barlaud, M., Aubert, G., Laurette, I., and Darcourt, J. (2001).
+\newblock Space-time segmentation using level set active contours applied to
+  myocardial gated {SPECT}.
+\newblock {\em IEEE Trans.\ Med.\ Imag.}, 20(7):643--659.
+
+\bibitem[Lamport, 1985]{lamport1985:latex}
+Lamport, L. (1985).
+\newblock {\em {\LaTeX}---A Document Preparation System---User's Guide and
+  Reference Manual}.
+\newblock Ad{\-d}i{\-s}on-Wes{\-l}ey.
+
+\end{thebibliography}
