@@ -32,6 +32,6 @@ jobs:
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
-        
+        if: startsWith(github.ref, 'refs/tags/')
 
 # see https://dev.to/mrturkmen/latex-with-github-actions-4580
