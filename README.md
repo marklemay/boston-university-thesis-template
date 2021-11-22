@@ -1,4 +1,6 @@
-The "unoffical" version of the latex template found at https://www.bu.edu/eng/departments/ece/resourcesforcurrentstudent/ece-ms-and-phd-thesis-prep/ms-thesis-phd-dissertation/
+[![Build LaTeX document](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml/badge.svg)](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml)
+
+The unoffical version of the latex template found at https://www.bu.edu/eng/departments/ece/resourcesforcurrentstudent/ece-ms-and-phd-thesis-prep/ms-thesis-phd-dissertation/
 
 This package contains a template for Boston University's MS Thesis and PhD Dissertation with the LaTeX/BiBTeX typesetting environment. 
 
