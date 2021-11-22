@@ -31,24 +31,7 @@ jobs:
           root_file: thesis.tex
 
       - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
+        uses: softprops/action-gh-release@v1
+        
 
-      - name: Upload Release Asset
-        id: upload-release-asset 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./thesis.pdf
-          asset_name: thesis.pdf
-          asset_content_type: pdf
-# from https://dev.to/mrturkmen/latex-with-github-actions-4580
+# see https://dev.to/mrturkmen/latex-with-github-actions-4580
