@@ -2,7 +2,7 @@
 
 On every commit, the pdf is built and posted as a [release](https://github.com/marklemay/boston-university-thesis-template/releases) under `draft`
 
-An unoffical version of the latex template found at https://www.bu.edu/eng/departments/ece/resourcesforcurrentstudent/ece-ms-and-phd-thesis-prep/ms-thesis-phd-dissertation/
+This repository is an unoffical version of the latex template found at https://www.bu.edu/eng/departments/ece/resourcesforcurrentstudent/ece-ms-and-phd-thesis-prep/ms-thesis-phd-dissertation/
 
 This package contains a template for Boston University's MS Thesis and PhD Dissertation with the LaTeX/BiBTeX typesetting environment. 
 
