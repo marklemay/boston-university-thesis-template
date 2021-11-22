@@ -1,6 +1,6 @@
 [![Build LaTeX document](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml/badge.svg)](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml)
 
-On every commit, the pdf is built and posted as a release [https://github.com/marklemay/boston-university-thesis-template/releases]release under `draft`
+On every commit, the pdf is built and posted as a release [release](https://github.com/marklemay/boston-university-thesis-template/releases) under `draft`
 
 An unoffical version of the latex template found at https://www.bu.edu/eng/departments/ece/resourcesforcurrentstudent/ece-ms-and-phd-thesis-prep/ms-thesis-phd-dissertation/
 
