@@ -2,13 +2,14 @@ thesis.pdf
 thesis.blg
 thesis.log
 
-# thesis.aux
+**/*.aux
 thesis.toc
-# thesis.lot
+thesis.lot
+thesis.lof
 
 thesis.fls
 thesis.fdb_latexmk
 thesis.ps
-# thesis.out
+thesis.out
 thesis.dvi
 thesis.bbl
