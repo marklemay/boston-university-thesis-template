@@ -10,5 +10,5 @@ thesis.fls
 thesis.fdb_latexmk
 thesis.ps
 # thesis.out
-# thesis.dvi
-# thesis.bbl
+thesis.dvi
+thesis.bbl
