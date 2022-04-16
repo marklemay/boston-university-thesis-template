@@ -1,6 +1,10 @@
 [![Build LaTeX document](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml/badge.svg)](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml)
 
+You should always be able to see the latest release with
+https://github.com/marklemay/boston-university-thesis-template/releases/download/thesis/thesis.pdf
+
 On every commit, the pdf is built and posted as a [release](https://github.com/marklemay/boston-university-thesis-template/releases) under `assets` > `thesis.pdf`
+
 
 build locally with
 ```
