@@ -1,5 +1,3 @@
-% BU ECE template for MS thesis and PhD dissertation.
-
 % MAIN PREAMBLE 
 \documentclass[12pt,letterpaper]{report}          % Single-sided printing for the library
 %\documentclass[12pt,twoside]{report} % Double-sided printing
@@ -21,7 +19,10 @@
 \usepackage{xspace}
 \usepackage{epstopdf} 
 \usepackage{subfig}
-%==========================================================================%
+
+% for git meta-data
+\usepackage{gitinfo2}
+
 %%% graphicx and pdf creation
 \usepackage{graphicx}
 \usepackage{appendix}
@@ -44,16 +45,12 @@
 %  pdfcreator  = {LaTeX with hyperref package},
 %  pdfproducer = {dvips + ps2pdf}
 %}
-%==========================================================================%
+
 % customized commands can be placed here
 %\newcommand{\figref}[1]{Figure~\ref{#1}}
 %\newcommand{\chapref}[1]{Chapter~\ref{#1}}
 %\newcommand{\latex}{\LaTeX\xspace}
-%==========================================================================%
 
-%==========================================================================%
-% BEGIN
-%==========================================================================%
 \begin{document}
 
 % The preliminary pages
@@ -88,7 +85,7 @@
 \begin{appendices}
 \include{Appendix/Appendix}
 \end{appendices}
-%==========================================================================%
+
 % Bibliography
 \newpage
 \singlespace
@@ -98,9 +95,7 @@
 \bibliography{thesis}
 \cleardoublepage
 
-%==========================================================================%
 % Curriculum Vitae
 \include{0_Prelim/cv} 
 
-%==========================================================================%
 \end{document}
