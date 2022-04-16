@@ -1,6 +1,6 @@
 [![Build LaTeX document](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml/badge.svg)](https://github.com/marklemay/boston-university-thesis-template/actions/workflows/build-thesis.yml)
 
-On every commit, the pdf is built and posted as a [release](https://github.com/marklemay/boston-university-thesis-template/releases) under `draft`
+On every commit, the pdf is built and posted as a [release](https://github.com/marklemay/boston-university-thesis-template/releases) under `assets` > `thesis.pdf`
 
 build locally with
 ```
